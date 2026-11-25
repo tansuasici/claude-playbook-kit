@@ -1,16 +1,21 @@
 <p align="center">
-  <img src="assets/logo.png" alt="Claude Playbook Kit" width="160">
+  <img src="https://claudeplaybookkit.tansuasici.com/assets/logo.png" alt="Claude Playbook Kit" width="160">
 </p>
 
 <h1 align="center">Claude Playbook Kit</h1>
 
-<p align="center">An opinionated engineering playbook — conventions, architecture decisions, processes, and checklists for modern software teams.</p>
+<p align="center">A drop-in engineering playbook that makes Claude Code follow your team's standards instead of improvising them — branching, commits, PRs, conventions, architecture guides, templates, and checklists.</p>
+
+<p align="center">
+  <b><a href="https://claudeplaybookkit.tansuasici.com">Documentation</a></b> ·
+  <a href="https://github.com/tansuasici/claude-playbook-kit/releases">Releases</a>
+</p>
 
 [![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/tansuasici/claude-playbook-kit/blob/main/LICENSE)
 [![Markdown Lint](https://github.com/tansuasici/claude-playbook-kit/actions/workflows/lint.yml/badge.svg)](https://github.com/tansuasici/claude-playbook-kit/actions/workflows/lint.yml)
-[![Version](https://img.shields.io/badge/version-1.0.0-green.svg)](https://github.com/tansuasici/claude-playbook-kit/blob/main/VERSION)
+[![Version](https://img.shields.io/github/v/release/tansuasici/claude-playbook-kit?color=green&label=version)](https://github.com/tansuasici/claude-playbook-kit/releases/latest)
 
-Personal software development playbook. Defines how I build software — from branching strategy to code conventions.
+Part of the Claude kit family ([Code](https://github.com/tansuasici/claude-code-kit), [Research](https://github.com/tansuasici/claude-research-kit), [Design](https://github.com/tansuasici/claude-design-kit), [Marketing](https://github.com/tansuasici/claude-marketing-kit), [Video](https://github.com/tansuasici/claude-video-kit)). Claude Playbook Kit writes down how software gets built — from branching strategy to code conventions — so Claude Code and your teammates follow the same rules.
 
 **Purpose**: Every new project reads this repo first and follows these standards. No reinventing the wheel.
 
