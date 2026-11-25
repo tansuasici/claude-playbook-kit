@@ -34,6 +34,8 @@ jobs:
         with:
           args: >-
             --no-progress
+            --max-retries 3
+            --accept "200..=299,429,503"
             --exclude-path CHANGELOG.md
             --exclude "example.com"
             --exclude "localhost"

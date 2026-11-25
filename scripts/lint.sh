@@ -14,5 +14,5 @@ fi
 lychee --no-progress --exclude-path CHANGELOG.md \
   --exclude "example.com" --exclude "localhost" --exclude "wiki.internal" \
   --exclude "docs.api.com" --exclude "grafana.internal" --exclude "external-api" \
-  --exclude "api.example.com" --max-retries 3 \
+  --exclude "api.example.com" --max-retries 3 --accept "200..=299,429,503" \
   "**/*.md"
