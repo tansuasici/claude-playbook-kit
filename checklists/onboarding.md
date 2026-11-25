@@ -15,7 +15,7 @@ What to do on your first day with a project (or when onboarding someone new).
 
 - [ ] Clone the repository
 - [ ] Read the `README.md` and `CLAUDE.md`
-- [ ] Read the [dev-playbook](https://github.com/tansuasici/dev-playbook) — especially `process/` and `conventions/`
+- [ ] Read the [claude-playbook-kit](https://github.com/tansuasici/claude-playbook-kit) — especially `process/` and `conventions/`
 - [ ] Install required runtimes and tools:
   - [ ] .NET SDK (check version in `global.json`)
   - [ ] Node.js (check version in `.nvmrc` or `package.json`)

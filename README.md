@@ -1,16 +1,21 @@
 <p align="center">
-  <img src="https://devplaybook.tansuasici.com/assets/logo.png" alt="Dev Playbook" width="160">
+  <img src="https://claudeplaybookkit.tansuasici.com/assets/logo.png" alt="Claude Playbook Kit" width="160">
 </p>
 
-<h1 align="center">Dev Playbook</h1>
+<h1 align="center">Claude Playbook Kit</h1>
 
-<p align="center">An opinionated engineering playbook — conventions, architecture decisions, processes, and checklists for modern software teams.</p>
+<p align="center">A drop-in engineering playbook that makes Claude Code follow your team's standards instead of improvising them — branching, commits, PRs, conventions, architecture guides, templates, and checklists.</p>
 
-[![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/tansuasici/dev-playbook/blob/main/LICENSE)
-[![Markdown Lint](https://github.com/tansuasici/dev-playbook/actions/workflows/lint.yml/badge.svg)](https://github.com/tansuasici/dev-playbook/actions/workflows/lint.yml)
-[![Version](https://img.shields.io/badge/version-1.0.0-green.svg)](https://github.com/tansuasici/dev-playbook/blob/main/VERSION)
+<p align="center">
+  <b><a href="https://claudeplaybookkit.tansuasici.com">Documentation</a></b> ·
+  <a href="https://github.com/tansuasici/claude-playbook-kit/releases">Releases</a>
+</p>
 
-Personal software development playbook. Defines how I build software — from branching strategy to code conventions.
+[![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/tansuasici/claude-playbook-kit/blob/main/LICENSE)
+[![Markdown Lint](https://github.com/tansuasici/claude-playbook-kit/actions/workflows/lint.yml/badge.svg)](https://github.com/tansuasici/claude-playbook-kit/actions/workflows/lint.yml)
+[![Version](https://img.shields.io/github/v/release/tansuasici/claude-playbook-kit?color=green&label=version)](https://github.com/tansuasici/claude-playbook-kit/releases/latest)
+
+Part of the Claude kit family ([Code](https://github.com/tansuasici/claude-code-kit), [Research](https://github.com/tansuasici/claude-research-kit), [Design](https://github.com/tansuasici/claude-design-kit), [Marketing](https://github.com/tansuasici/claude-marketing-kit), [Video](https://github.com/tansuasici/claude-video-kit)). Claude Playbook Kit writes down how software gets built — from branching strategy to code conventions — so Claude Code and your teammates follow the same rules.
 
 **Purpose**: Every new project reads this repo first and follows these standards. No reinventing the wheel.
 
@@ -31,14 +36,14 @@ Add this to your project's `CLAUDE.md`:
 
 ```markdown
 ## Development Process
-Follow the playbook at https://github.com/tansuasici/dev-playbook
+Follow the playbook at https://github.com/tansuasici/claude-playbook-kit
 Read all files under process/ and conventions/ before starting work.
 Apply templates/ when creating issues and PRs.
 ```
 
 Or at the start of a session:
 
-> "Read the dev-playbook repo first, then work on this project."
+> "Read the claude-playbook-kit repo first, then work on this project."
 
 ### For Yourself
 
@@ -49,7 +54,7 @@ Bookmark this repo. Before starting a new project, run through `checklists/new-p
 ## Structure
 
 ```text
-dev-playbook/
+claude-playbook-kit/
   process/                     How work flows
     branching.md               Branch strategy and naming
     commits.md                 Conventional Commits rules
@@ -114,7 +119,7 @@ dev-playbook/
 | Onboard to a project | [checklists/onboarding.md](checklists/onboarding.md) |
 | Create a feature branch | [process/branching.md](process/branching.md) |
 | Write a commit message | [process/commits.md](process/commits.md) |
-| Open an issue | [process/issues.md](process/issues.md) + [templates/](https://github.com/tansuasici/dev-playbook/tree/main/templates) |
+| Open an issue | [process/issues.md](process/issues.md) + [templates/](https://github.com/tansuasici/claude-playbook-kit/tree/main/templates) |
 | Open a PR | [process/pull-requests.md](process/pull-requests.md) |
 | Review code | [process/code-review.md](process/code-review.md) |
 | Set up CI/CD | [process/ci-cd.md](process/ci-cd.md) |
@@ -157,4 +162,4 @@ Contributions are welcome! See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines
 
 ## License
 
-This project is licensed under the [MIT License](https://github.com/tansuasici/dev-playbook/blob/main/LICENSE).
+This project is licensed under the [MIT License](https://github.com/tansuasici/claude-playbook-kit/blob/main/LICENSE).
