@@ -13,7 +13,7 @@ Copy this to the root of a new project and customize.
 
 ## Development Process
 
-Follow the playbook at https://github.com/tansuasici/dev-playbook
+Follow the playbook at https://github.com/tansuasici/claude-playbook-kit
 Read all files under `process/` and `conventions/` before starting work.
 
 ---
@@ -79,7 +79,7 @@ cd <project>
 
 ## Code Conventions
 
-Follow `conventions/` in the dev-playbook. Project-specific overrides:
+Follow `conventions/` in the claude-playbook-kit. Project-specific overrides:
 
 - <!-- Any project-specific rules that override or extend the playbook -->
 

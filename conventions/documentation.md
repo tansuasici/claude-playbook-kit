@@ -66,7 +66,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## License
 
-[MIT](https://github.com/tansuasici/dev-playbook/blob/main/LICENSE)
+[MIT](https://github.com/tansuasici/claude-playbook-kit/blob/main/LICENSE)
 ```
 
 ## API Documentation
