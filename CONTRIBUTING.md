@@ -73,6 +73,8 @@ What NOT to do, with examples.
 
 ## Review Process
 
+CI doesn't run on pull requests, so run `scripts/lint.sh` (markdownlint + lychee) before you open one. Maintainers run the checks on a PR branch with `gh workflow run lint.yml --ref <branch>`.
+
 1. All PRs require at least one review
 2. Reviewers check for accuracy, clarity, and consistency with existing guides
 3. Discussions are welcome — suggest improvements, ask questions
