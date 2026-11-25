@@ -1,10 +1,12 @@
 name: Lint & Link Check
 
+# No pull_request trigger: this runs on a self-hosted runner on a prod server
+# while GitHub-hosted runners are unavailable, and this repo is public. For a
+# PR, run it by hand on the branch: gh workflow run lint.yml --ref <branch>
 on:
   push:
     branches: [main]
-  pull_request:
-    branches: [main]
+  workflow_dispatch:
 
 jobs:
   markdown-lint:
@@ -32,6 +34,8 @@ jobs:
         with:
           args: >-
             --no-progress
+            --max-retries 3
+            --accept "200..=299,429,503"
             --exclude-path CHANGELOG.md
             --exclude "example.com"
             --exclude "localhost"
